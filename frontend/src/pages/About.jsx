@@ -55,8 +55,8 @@ const About = () => {
             <div className="relative">
               <div className="aspect-square rounded-2xl bg-gradient-to-br from-rose-200 to-amber-200 overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800"
-                  alt="Beautiful wedding cake"
+                  src="https://customer-assets.emergentagent.com/job_8011bedc-43b8-4383-be26-1e14cb04c333/artifacts/z9jxki1e_Cake%201%20.jpeg"
+                  alt="Beautiful Fudge Forest wedding cake"
                   className="w-full h-full object-cover"
                 />
               </div>
