@@ -3,55 +3,62 @@
 export const galleryImages = [
   {
     id: '1',
-    url: 'https://images.unsplash.com/photo-1588195538326-c5b1e5b37f7f?w=800',
+    url: 'https://customer-assets.emergentagent.com/job_8011bedc-43b8-4383-be26-1e14cb04c333/artifacts/z9jxki1e_Cake%201%20.jpeg',
     category: 'wedding',
     title: 'Elegant Wedding Cake',
-    alt: 'Three-tier white wedding cake with floral decorations'
+    alt: 'Beautiful multi-tier wedding cake by Fudge Forest'
   },
   {
     id: '2',
+    url: 'https://customer-assets.emergentagent.com/job_8011bedc-43b8-4383-be26-1e14cb04c333/artifacts/pnkzxsfs_cake%202.jpeg',
+    category: 'wedding',
+    title: 'Stunning Wedding Creation',
+    alt: 'Gorgeous wedding cake by Fudge Forest Bakehouse'
+  },
+  {
+    id: '3',
     url: 'https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=800',
     category: 'wedding',
     title: 'Romantic Rose Wedding Cake',
     alt: 'Wedding cake with pink roses'
   },
   {
-    id: '3',
+    id: '4',
     url: 'https://images.unsplash.com/photo-1535254973040-607b474cb50d?w=800',
     category: 'birthday',
     title: 'Birthday Celebration Cake',
     alt: 'Colorful birthday cake with decorations'
   },
   {
-    id: '4',
+    id: '5',
     url: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800',
     category: 'custom',
     title: 'Custom Design Cake',
     alt: 'Uniquely designed custom cake'
   },
   {
-    id: '5',
+    id: '6',
     url: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800',
     category: 'wedding',
     title: 'Classic White Wedding Cake',
     alt: 'Traditional white wedding cake'
   },
   {
-    id: '6',
+    id: '7',
     url: 'https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?w=800',
     category: 'birthday',
     title: 'Festive Birthday Cake',
     alt: 'Decorated birthday cake'
   },
   {
-    id: '7',
+    id: '8',
     url: 'https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=800',
     category: 'custom',
     title: 'Artistic Custom Creation',
     alt: 'Artistically designed cake'
   },
   {
-    id: '8',
+    id: '9',
     url: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800',
     category: 'wedding',
     title: 'Tiered Wedding Masterpiece',
