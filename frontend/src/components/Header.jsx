@@ -22,13 +22,21 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-rose-100">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          {/* Logo */}
+          {/* Logo + brand name */}
           <Link to="/" className="flex items-center space-x-3">
-            <img 
-              src="https://customer-assets.emergentagent.com/job_8011bedc-43b8-4383-be26-1e14cb04c333/artifacts/usv687xq_Fudge%20Forest%20%28Image%201%29-Photoroom.png" 
-              alt="Fudge Forest Bakehouse" 
-              className="h-16 w-auto"
+            <img
+              src="https://customer-assets.emergentagent.com/job_8011bedc-43b8-4383-be26-1e14cb04c333/artifacts/usv687xq_Fudge%20Forest%20%28Image%201%29-Photoroom.png"
+              alt="Fudge Forest Bakehouse logo"
+              className="h-12 w-auto"
             />
+            <div className="hidden sm:flex flex-col leading-tight">
+              <span className="text-lg font-semibold text-rose-700">
+                Fudge Forest
+              </span>
+              <span className="text-xs text-gray-500 tracking-wide">
+                Bakehouse
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

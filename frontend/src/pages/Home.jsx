@@ -4,6 +4,7 @@ import { Heart, Sparkles, Gift, Star, ArrowRight } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { services } from '../mock';
+import logoImage from '../assets/fudge-forest-logo.png';
 
 const iconMap = {
   Heart,
@@ -16,12 +17,25 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-rose-50 via-amber-50 to-rose-50 pt-20">
+      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-rose-50 via-amber-50 to-rose-50 pt-20 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, rgb(225, 29, 72, 0.15) 1px, transparent 0)',
-            backgroundSize: '40px 40px'
-          }} />
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage:
+                'radial-gradient(circle at 2px 2px, rgb(225, 29, 72, 0.15) 1px, transparent 0)',
+              backgroundSize: '40px 40px'
+            }}
+          />
+        </div>
+
+        {/* Soft logo background in hero */}
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+          <img
+            src={logoImage}
+            alt="Fudge Forest House logo"
+            className="w-[260px] sm:w-[340px] md:w-[420px] opacity-10 md:opacity-15"
+          />
         </div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
