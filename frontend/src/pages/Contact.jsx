@@ -141,8 +141,8 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-rose-200 to-amber-200 overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=800"
-                  alt="Beautiful cake display"
+                  src="https://customer-assets.emergentagent.com/job_8011bedc-43b8-4383-be26-1e14cb04c333/artifacts/pnkzxsfs_cake%202.jpeg"
+                  alt="Beautiful cake by Fudge Forest"
                   className="w-full h-full object-cover"
                 />
               </div>
