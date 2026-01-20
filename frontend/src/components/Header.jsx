@@ -29,8 +29,8 @@ const Header = () => {
               alt="Fudge Forest Bakehouse logo"
               className="h-12 w-auto"
             />
-            <div className="hidden sm:flex flex-col leading-tight">
-              <span className="text-lg font-semibold text-rose-700">
+            <div className="flex flex-col leading-tight">
+              <span className="text-base sm:text-lg font-semibold text-rose-700">
                 Fudge Forest
               </span>
               <span className="text-xs text-gray-500 tracking-wide">
