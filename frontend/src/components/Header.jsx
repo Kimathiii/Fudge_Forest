@@ -23,10 +23,12 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-rose-700">
-              Fudge Forest
-            </div>
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_8011bedc-43b8-4383-be26-1e14cb04c333/artifacts/usv687xq_Fudge%20Forest%20%28Image%201%29-Photoroom.png" 
+              alt="Fudge Forest Bakehouse" 
+              className="h-16 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
