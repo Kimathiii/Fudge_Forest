@@ -10,9 +10,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div>
-            <div className="text-2xl font-bold text-rose-700 mb-3">
-              Fudge Forest
-            </div>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_8011bedc-43b8-4383-be26-1e14cb04c333/artifacts/usv687xq_Fudge%20Forest%20%28Image%201%29-Photoroom.png" 
+              alt="Fudge Forest Bakehouse" 
+              className="h-20 w-auto mb-3"
+            />
             <p className="text-sm text-gray-600 italic">
               Perfection by Confection
             </p>
